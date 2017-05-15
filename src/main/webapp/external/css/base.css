@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 Oct, 2016, 2:04:34 PM
+    Author     : Aditya
+*/
+
+/*body {*/
+/*    background-image: url("./body.jpg");
+    background-repeat: ;
+    background-position: left top;
+    background-attachment: inherit;*/
+/*background-image: url("./body.jpg");
+background-repeat: no-repeat ;
+background-size: auto;*/
+/*background: url(./body.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./body.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+}
+
+#backgroundImage{z-index: 1;}
+
+#backgroundImage:before {
+   width: 100%;
+    height: 400px;
+   background-image: url("./bg-2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+ }
